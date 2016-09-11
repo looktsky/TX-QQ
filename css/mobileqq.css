@@ -1,0 +1,144 @@
+/* 
+* @Author: anchen
+* @Date:   2016-06-19 20:26:09
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-06-20 20:28:11
+*/
+body,ul,li,p,h1,h2,h3,div,input{margin: 0;padding: 0;font-size: 100%;}
+img,input{border: none;}
+input{background: none;}
+a{text-decoration:none;}
+li,ul{list-style: none;}
+body{ background: #fff;}
+h1,h2,h3,h4{font-weight: normal;}
+body{
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+    max-width: 1920px;
+    font-size: 100%;
+    background: #fff;
+    margin: 0 auto;
+    color: black;
+}
+.topBar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 100;
+}
+.topBar a{
+    color: #000;
+}
+.topPic{
+    max-width: 1170px;
+    min-width: 980px;
+    width: 80%;
+    height: 75px;
+    margin:0 auto; 
+}
+.topTool a:hover{
+    color: #12b7f5;
+
+}
+.topSide{
+    float: left;
+    width: 59%;
+}
+.logo{
+    float: left;
+    display: block;
+    height: 0px;
+    width: 196px;
+    padding-top:76px;
+    font-size: 0;
+    background: url(../img/mblogo_black.png) no-repeat left 15px transparent; 
+}
+.topTool{
+    float: right;
+    width: 320px;
+    font-size: 0.875em;
+}
+.topTool ul{
+    float: right;
+    height: 40px;
+    padding-top: 6px;
+}
+.topTool ul li{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    line-height: 40px;
+}
+.flash{
+    float: right;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.04em;
+}
+.viewOnline{
+    display: block;
+    float: right;
+}
+.viewOnline:hover{
+    text-decoration: underline;
+}
+.topBarBack{
+    background:  transparent url(../img/bg_sp.jpg) no-repeat center bottom;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 825px;
+    min-height: 742px;
+}
+.topBarBack h1{
+    position: absolute;
+    top: 11.83%;
+    width: 646px;
+    padding-top: 362px;
+    margin-left: -323px;
+    background: url(../img/banner.png) transparent no-repeat center bottom;
+    left: 50%;
+    
+}
+.topBarBack .downBtn{
+    text-indent: -999px;
+    width: 386px;
+    height: 75px;
+    position: absolute;
+    left: 50%;
+    margin-left: -193px;
+    top: 57.533%;
+    background: transparent url(../img/button.png) no-repeat 0 0;
+}
+.warp{
+    width: 100%;
+    height: 751px;
+    margin: 0 auto;
+}
+.textWarp{
+    text-indent: -9999px;
+}
+#warp1{
+    background: transparent url(../img/1.jpg) no-repeat center top;  
+}
+#warp2{
+    background: transparent url(../img/2.jpg) no-repeat center top;
+} 
+#warp3{
+    background: transparent url(../img/3.jpg) no-repeat center top;
+} 
+.footer{
+    width: 100%;
+    height: 175px;
+    background: #fff;
+    font-size: 14px;
+}
+.copyright{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 65px;
+    line-height: 17px;
+    text-align: center;
+    color: #8d92af;
+}
